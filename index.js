@@ -7,6 +7,10 @@ num1 & num2.
 
 add should return the sum of these two parameters
 */
+function add (num1,num2) {
+  return num1 + num2
+}
+
 
 
 
@@ -21,9 +25,11 @@ Use a function(PROMPT TWO)
 Declare a function called printer
 The printer function should print to the console no return or parameter needed
 */
+function printer() {
 
+}
 
-
+console.log();
 
 
 
@@ -54,3 +60,30 @@ This function will return the paramater
 Call the addKeys function outside its function definition and 
 pass myObject as an argument.
 */
+
+var myObject = {
+  
+
+  
+}
+function addKeys(object) {
+
+object.firstName = "Daniel";
+
+object.lastName = "Barahona";
+
+return object
+}
+
+addKeys(myObject);
+
+
+
+
+
+
+
+
+
+
+
